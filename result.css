@@ -1,0 +1,111 @@
+:root{
+  background-color: #ecf5ff;
+  font-size: 62.5%;
+}
+
+*{
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+.btn{
+  display: block;
+  width:10%;
+  margin:auto;
+  text-decoration: none;
+  background-color: rgba(127, 169, 227, 0.621);
+  padding: 10px 20px;
+  border: 1px white solid;
+  border-radius: 2em;
+  transition-duration: 0.5s;
+}
+
+.btn:hover{
+  background-color: rgb(21, 80, 143);
+  color: white;
+  cursor:pointer;
+}
+
+.btn:nth-of-type(1){
+  margin-bottom: 10px;
+}
+
+h1{
+  color: rgb(79, 79, 188);
+  font-size: 5em;
+  border: rgb(79, 79, 188) 3px solid;
+  border-radius: 10px;
+  padding: 0.5em .5em;
+  margin: 10px 10px 10px 10px;
+  text-align: center;
+  transition-duration: 0.5s;
+}
+
+h1:hover{
+  color: white;
+  background-color: rgb(79, 79, 188);
+}
+
+input,#buto{
+  display: inline;
+}
+
+#res{
+  display:inline;
+  color:black;
+}
+
+p{
+  text-align: center;
+  color:red;
+  font-size: 20px;
+}
+
+#buto{
+  width:20%;
+  position:relative;
+  left:220px;
+  bottom:25px;
+  padding:8px;
+}
+
+input{
+  height:25px;
+  font-weight: bold;
+  font-size:12px;
+}
+
+#find{
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  color:navy;
+  display:inline-block; 
+  position: relative;
+  top:28px;
+  left:300px;
+}
+
+
+  table{
+    font-size: 20px;
+    border-collapse: collapse;
+    border:2px solid black;
+    margin:auto;
+    margin-bottom: 30px;
+    text-align:center;
+  }
+  
+  th,td{
+    border:2px solid black;
+    padding: 20px;
+  }
+
+  #heading{
+    position: relative;
+    top:0px;
+  }
+
+  
